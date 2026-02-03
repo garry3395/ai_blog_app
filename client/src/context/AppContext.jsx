@@ -43,7 +43,7 @@ const AppContext=createContext()
       navigate
 
   }
-  {/** provider is important */}
+
   return(
      <AppContext.Provider value={value}>
          
