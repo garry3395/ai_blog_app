@@ -5,7 +5,7 @@ import axios from 'axios'
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { useEffect } from "react";
-axios.defaults.baseURL=import.meta.env.VITE_BASE_URL||"http://localhost:8000"
+axios.defaults.baseURL=import.meta.env.VITE_BASE_URL
 
 const AppContext=createContext()
  export const AppProvider=({children})=>{
