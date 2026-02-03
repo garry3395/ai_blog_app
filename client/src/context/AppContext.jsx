@@ -5,7 +5,7 @@ import axios from 'axios'
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { useEffect } from "react";
-axios.defaults.baseURL=import.meta.env.VITE_BASE_URL
+axios.defaults.baseURL=import.meta.env.VITE_BASE_URL||"http://localhost:8000"
 
 const AppContext=createContext()
  export const AppProvider=({children})=>{
@@ -43,7 +43,7 @@ const AppContext=createContext()
       navigate
 
   }
-  
+  {/** provider is important */}
   return(
      <AppContext.Provider value={value}>
          
