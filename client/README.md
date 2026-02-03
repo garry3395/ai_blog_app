@@ -1,6 +1,6 @@
 # Blog App Client
 
-A modern React frontend for a blogging platform built with Vite, featuring blog display, admin panel, and rich text editing.
+A modern React frontend for a blogging platform built with Vite, featuring blog display, admin panel, and rich text editing. live Link -:https://blogingappai.vercel.app/
 
 ## Features
 
